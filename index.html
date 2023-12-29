@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AddBook Page</title>
+</head>
+<body>
+    <section id="navbar">
+    <div id="container">
+        <h1>Awesome Books</h1>
+        <ul id="nav-bar">
+            <a href="#List"><li id="list" class="nav">List</li></a>
+            <a href="#AddBook"><li id="addbooks" class="nav">Add Books</li></a>
+            <a href="#Contact"><li id="contact" class="nav">Contact</li></a>
+        </ul>
+    </div>
+    </section>
+    <section id="AddBook">
+    <div id="formcontainer">
+            <form id="form">
+                <label><input type="text" placeholder="Books" id="book"></label>
+                <label><input type="text" placeholder="Author" id="author"></label>                
+            <button type="button" onclick="Addbook()">Add Books</button>
+            </form>
+    <div id="bar1"></div>
+    </div>
+    </section>
+    <section id="List">
+    <div id="container2"></div>
+    <div id="bar1"></div>
+    </section>
+    <section id="Contact">
+        <div id="contact-detail">
+        <p>
+            If you have any questions or you just want to say "Hello".
+            You can reach us to.
+        </p>
+        <ul>
+            <li class="contactlist">Our email: <a href="#">mail@mail.com</a></li>
+            <li class="contactlist">Our twitter: <a href="#">@awesomeBooks</a></li>
+            <li class="contactlist">Our github: <a href="#">@awesomeBooks</a></li>
+        </ul>
+    </div>
+        <div id="bar">
+            <footer class="footer">
+                <h3>Copyright &copy;</h3>
+            </footer>
+        </div>
+    </section>
+    <script src="Script.js"></script>
+</body>
+</html>
